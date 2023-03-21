@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="6000" name="Friction-world" sample-rate="44100" end-is-free="0" session-range-is-free="0" id-counter="208227" name-counter="1" event-counter="31613" vca-counter="1">
+<Session version="6000" name="Friction-world" sample-rate="44100" end-is-free="0" session-range-is-free="0" id-counter="228276" name-counter="1" event-counter="36500" vca-counter="1">
   <ProgramVersion created-with="Ardour 1:5.12.0-3ubuntu4" modified-with="Ardour 6.9.0~ds0-1build1"/>
   <MIDIPorts>
     <Port name="MIDI Clock out" direction="output"/>
@@ -8,7 +8,9 @@
     <Port name="MTC out" direction="output"/>
     <Port name="Scene in" direction="input"/>
     <Port name="Scene out" direction="output"/>
-    <Port name="x-virtual-keyboard" direction="output"/>
+    <Port name="x-virtual-keyboard" direction="output">
+      <Connection other="ardour:MIDI fr. horn/midi_in 1"/>
+    </Port>
   </MIDIPorts>
   <Config>
     <Option name="use-region-fades" value="1"/>
@@ -1436,7 +1438,9 @@
     <CompoundAssociation copy="10321" original="1451"/>
     <CompoundAssociation copy="10330" original="10292"/>
   </CompoundAssociations>
-  <Selection/>
+  <Selection>
+    <StripableAutomationControl stripable="9219" control="0" order="4"/>
+  </Selection>
   <Locations>
     <Location id="259" name="session" start="100588708" end="107274946" flags="IsSessionRange" locked="0" position-lock-style="AudioTime" timestamp="1674110220"/>
     <Location id="308" name="mark1" start="19926016" end="19926016" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1674110220"/>
@@ -2107,6 +2111,8 @@
         <AutomationList automation-id="phase" id="9230" interpolation-style="Discrete" state="Off"/>
         <AutomationList automation-id="monitor" id="9258" interpolation-style="Discrete" state="Off"/>
       </Automation>
+      <Comment>notes
+-8.6 before messing</Comment>
       <Pannable>
         <Controllable name="pan-azimuth" id="9238" flags="" value="0.5"/>
         <Controllable name="pan-width" id="9242" flags="" value="0"/>
@@ -2134,7 +2140,7 @@
         <Automation>
           <AutomationList automation-id="gain" id="9222" interpolation-style="Linear" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="9223" flags="GainLike" value="0.37222808599472046"/>
+        <Controllable name="gaincontrol" id="9223" flags="GainLike" value="0.98571217060089111"/>
       </Processor>
       <Processor id="108397" name="Calf Equalizer 8 Band" active="1" user-latency="0" use-user-latency="0" type="lv2" unique-id="http://calf.sourceforge.net/plugins/Equalizer8Band" count="1" custom="0">
         <Automation>
@@ -2277,7 +2283,7 @@
         <Controllable name="Analyzer Active" id="108473" flags="Toggle" value="1" parameter="49" symbol="analyzer"/>
         <Controllable name="Analyzer Mode" id="108475" flags="" value="1" parameter="50" symbol="analyzer_mode"/>
       </Processor>
-      <Processor id="117397" name="Gx Studio Preamp Mono" active="1" user-latency="0" use-user-latency="0" type="lv2" unique-id="http://guitarix.sourceforge.net/plugins/gx_studiopre#studiopre" count="1" custom="0">
+      <Processor id="117397" name="Gx Studio Preamp Mono" active="0" user-latency="0" use-user-latency="0" type="lv2" unique-id="http://guitarix.sourceforge.net/plugins/gx_studiopre#studiopre" count="1" custom="0">
         <Automation>
           <AutomationList automation-id="parameter-0" id="117398" interpolation-style="Discrete" state="Off"/>
           <AutomationList automation-id="parameter-1" id="117400" interpolation-style="Linear" state="Off"/>
@@ -4167,9 +4173,7 @@ was at volume 4.4 originally </Comment>
       <Controllable name="solo-iso" id="165535" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="165537" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="harmony vocal3" id="165549" direction="Input" default-type="audio">
-        <Port type="audio" name="harmony vocal3/audio_in 1">
-          <Connection other="system:capture_2"/>
-        </Port>
+        <Port type="audio" name="harmony vocal3/audio_in 1"/>
       </IO>
       <IO name="harmony vocal3" id="165550" direction="Output" default-type="audio">
         <Port type="audio" name="harmony vocal3/audio_out 1">
@@ -4236,7 +4240,9 @@ was at volume 4.4 originally </Comment>
       <Controllable name="solo-iso" id="185037" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="185039" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="MIDI fr. horn" id="185051" direction="Input" default-type="midi">
-        <Port type="midi" name="MIDI fr. horn/midi_in 1"/>
+        <Port type="midi" name="MIDI fr. horn/midi_in 1">
+          <Connection other="x-virtual-keyboard"/>
+        </Port>
       </IO>
       <IO name="MIDI fr. horn" id="185052" direction="Output" default-type="midi">
         <Port type="audio" name="MIDI fr. horn/audio_out 1">
@@ -21574,7 +21580,7 @@ was at volume 4.4 originally </Comment>
       <Automation>
         <AutomationList automation-id="gain" id="57" interpolation-style="Linear" state="Off"/>
       </Automation>
-      <Controllable name="gaincontrol" id="58" flags="GainLike" value="0.95712333917617798"/>
+      <Controllable name="gaincontrol" id="58" flags="GainLike" value="1.2049468755722046"/>
     </Processor>
   </Click>
   <Speakers>
@@ -21655,8 +21661,8 @@ was at volume 4.4 originally </Comment>
       <Window name="key-editor" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="session-options-editor" visible="0" x-off="0" y-off="335" x-size="750" y-size="368"/>
       <Window name="speaker-config" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="about" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="672" y-size="499"/>
+      <Window name="about" visible="0" x-off="0" y-off="0" x-size="424" y-size="611"/>
+      <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="662" y-size="499"/>
       <Window name="add-video" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="inspector" visible="0" x-off="57" y-off="57" x-size="620" y-size="370"/>
       <Window name="audio-midi-setup" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
