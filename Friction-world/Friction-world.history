@@ -1,48 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <UndoHistory>
-  <UndoTransaction tv-sec="1645425673" tv-usec="210801" name="mute region">
-    <StatefulDiffCommand obj-id="106877" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <muted from="0" to="1"/>
-      </Changes>
-    </StatefulDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1645425678" tv-usec="436038" name="mute regions">
-    <StatefulDiffCommand obj-id="185505" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="185483" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <layering-index from="6" to="7"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="185477" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <layering-index from="5" to="6"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="185471" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <layering-index from="4" to="5"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="185441" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <layering-index from="3" to="4"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="185433" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <layering-index from="2" to="3"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="185403" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="185206" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-  </UndoTransaction>
   <UndoTransaction tv-sec="1645425730" tv-usec="937739" name="region copy">
     <StatefulDiffCommand obj-id="46162" type-name="ARDOUR::AudioPlaylist">
       <Changes>
@@ -630,5 +587,56 @@
         <Location id="150274" name="end new ditty loop1" start="66109292" end="66109292" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
       </Locations>
     </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1679542414" tv-usec="927257" name="set loop range from selection">
+    <MementoCommand obj-id="9045" type-name="ARDOUR::Location">
+      <Location id="9045" name="Loop" start="101036492" end="101745731" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime" timestamp="1674110220"/>
+      <Location id="9045" name="Loop" start="103071877" end="103723199" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime" timestamp="1674110220"/>
+    </MementoCommand>
+    <MementoCommand obj-id="45" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseRange" zoom="1275" left-frame="102338957" y-origin="198">
+        <Selection>
+          <StripableView id="247922"/>
+          <AudioRange start="103071877" end="103723199"/>
+          <Marker id="259" start="0"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseRange" zoom="1275" left-frame="102338957" y-origin="198">
+        <Selection>
+          <StripableView id="247922"/>
+          <AudioRange start="103071877" end="103723199"/>
+          <Marker id="259" start="0"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1679542565" tv-usec="257128" name="capture">
+    <StatefulDiffCommand obj-id="247967" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="248073"/>
+          <Add id="248086"/>
+          <Add id="248099"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1679542766" tv-usec="766201" name="capture">
+    <StatefulDiffCommand obj-id="248133" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="248153"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1679542988" tv-usec="457272" name="capture">
+    <StatefulDiffCommand obj-id="248175" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="248195"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
   </UndoTransaction>
 </UndoHistory>
