@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="6000" name="Friction-world" sample-rate="44100" end-is-free="0" session-range-is-free="0" id-counter="428884" name-counter="1" event-counter="78464" vca-counter="1">
+<Session version="6000" name="Friction-world" sample-rate="44100" end-is-free="0" session-range-is-free="0" id-counter="453361" name-counter="1" event-counter="83448" vca-counter="1">
   <ProgramVersion created-with="Ardour 1:5.12.0-3ubuntu4" modified-with="Ardour 6.9.0~ds0-1build1"/>
   <MIDIPorts>
     <Port name="MIDI Clock out" direction="output"/>
@@ -1633,9 +1633,7 @@
     <CompoundAssociation copy="10321" original="1451"/>
     <CompoundAssociation copy="10330" original="10292"/>
   </CompoundAssociations>
-  <Selection>
-    <StripableAutomationControl stripable="46120" control="0" order="26"/>
-  </Selection>
+  <Selection/>
   <Locations>
     <Location id="259" name="session" start="100588708" end="107274946" flags="IsSessionRange" locked="0" position-lock-style="AudioTime" timestamp="1674110220"/>
     <Location id="308" name="mark1" start="19926016" end="19926016" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1674110220"/>
@@ -1647,7 +1645,7 @@
     <Location id="426" name="mark7" start="29813760" end="29813760" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1674110220"/>
     <Location id="1415" name="mark8" start="4315015" end="4315015" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1674110220"/>
     <Location id="9000" name="idea starts here" start="3582277" end="3582277" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1674110220"/>
-    <Location id="9045" name="Loop" start="103071877" end="103723199" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime" timestamp="1674110220"/>
+    <Location id="9045" name="Loop" start="103071877" end="103723200" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime" timestamp="1674110220"/>
     <Location id="9051" name="verse part" start="4315015" end="4315015" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1674110220"/>
     <Location id="33727" name="rob cliff parts" start="32464385" end="32464385" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1674110220"/>
     <Location id="33922" name="new arrangement" start="41603262" end="41603262" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1674110220"/>
@@ -2659,7 +2657,7 @@ tracks are a playlist</Comment>
         <AutomationList automation-id="monitor" id="31531" interpolation-style="Discrete" state="Off"/>
       </Automation>
       <Pannable>
-        <Controllable name="pan-azimuth" id="31511" flags="" value="0.34976923076923083"/>
+        <Controllable name="pan-azimuth" id="31511" flags="" value="0.3497692346572876"/>
         <Controllable name="pan-width" id="31515" flags="" value="0"/>
         <Controllable name="pan-elevation" id="31513" flags="" value="0"/>
         <Controllable name="pan-frontback" id="31517" flags="" value="0"/>
@@ -2726,7 +2724,7 @@ tracks are a playlist</Comment>
         <AutomationList automation-id="monitor" id="31592" interpolation-style="Discrete" state="Off"/>
       </Automation>
       <Pannable>
-        <Controllable name="pan-azimuth" id="31572" flags="" value="0.6538461538461543"/>
+        <Controllable name="pan-azimuth" id="31572" flags="" value="0.6538461446762085"/>
         <Controllable name="pan-width" id="31576" flags="" value="0"/>
         <Controllable name="pan-elevation" id="31574" flags="" value="0"/>
         <Controllable name="pan-frontback" id="31578" flags="" value="0"/>
@@ -27906,7 +27904,7 @@ was at volume 4.4 originally </Comment>
       <Window name="session-options-editor" visible="0" x-off="0" y-off="335" x-size="750" y-size="368"/>
       <Window name="speaker-config" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="about" visible="0" x-off="0" y-off="0" x-size="424" y-size="611"/>
-      <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="652" y-size="503"/>
+      <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="671" y-size="503"/>
       <Window name="add-video" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="inspector" visible="0" x-off="57" y-off="57" x-size="620" y-size="370"/>
       <Window name="audio-midi-setup" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -27948,8 +27946,12 @@ was at volume 4.4 originally </Comment>
       <Window name="RPM-166" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-62-458" visible="0" x-off="955" y-off="264" x-size="847" y-size="404" custom-ui="1"/>
       <Window name="PM-62-458" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-9219-108397" visible="0" x-off="608" y-off="129" x-size="858" y-size="713" custom-ui="1"/>
-      <Window name="PM-9219-108397" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-46120-376253" visible="0" x-off="1074" y-off="0" x-size="846" y-size="706" custom-ui="1"/>
+      <Window name="P-46120-61051" visible="0" x-off="282" y-off="92" x-size="847" y-size="404" custom-ui="1"/>
+      <Window name="P-46120-61078" visible="0" x-off="302" y-off="127" x-size="806" y-size="334" custom-ui="1"/>
+      <Window name="PM-46120-376253" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-46120-61051" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-46120-61078" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-73063-135021" visible="0" x-off="608" y-off="129" x-size="858" y-size="713" custom-ui="1"/>
       <Window name="P-73063-73194" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="PM-73063-135021" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -27958,13 +27960,9 @@ was at volume 4.4 originally </Comment>
       <Window name="P-31553-187705" visible="0" x-off="1073" y-off="0" x-size="847" y-size="404" custom-ui="1"/>
       <Window name="PM-31553-38031" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-31553-187705" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-46120-376253" visible="0" x-off="1074" y-off="0" x-size="846" y-size="706" custom-ui="1"/>
-      <Window name="P-46120-61051" visible="0" x-off="282" y-off="92" x-size="847" y-size="404" custom-ui="1"/>
-      <Window name="P-46120-61078" visible="0" x-off="302" y-off="127" x-size="806" y-size="334" custom-ui="1"/>
-      <Window name="PM-46120-376253" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-46120-61051" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-46120-61078" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-164871-427530" visible="0" x-off="883" y-off="0" x-size="1037" y-size="708" custom-ui="1"/>
       <Window name="P-164871-379032" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-164871-427530" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-164871-379032" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-165031-379087" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="PM-165031-379087" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -27982,6 +27980,8 @@ was at volume 4.4 originally </Comment>
       <Window name="PM-268079-289664" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-101006-133429" visible="0" x-off="608" y-off="129" x-size="858" y-size="713" custom-ui="1"/>
       <Window name="PM-101006-133429" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-9219-108397" visible="0" x-off="608" y-off="129" x-size="858" y-size="713" custom-ui="1"/>
+      <Window name="PM-9219-108397" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-185023-185326" visible="0" x-off="1309" y-off="0" x-size="611" y-size="672" custom-ui="1"/>
       <Window name="PM-185023-185326" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-101319-101446" visible="0" x-off="608" y-off="129" x-size="858" y-size="713" custom-ui="1"/>
@@ -27990,8 +27990,6 @@ was at volume 4.4 originally </Comment>
       <Window name="PM-951-1094" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-339-485" visible="0" x-off="955" y-off="264" x-size="847" y-size="404" custom-ui="1"/>
       <Window name="PM-339-485" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-164871-427530" visible="0" x-off="883" y-off="0" x-size="1037" y-size="708" custom-ui="1"/>
-      <Window name="PM-164871-427530" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
         <Object id="rtav 62" height="66" visible="1"/>
         <Object id="automation 66" height="66" visible="0"/>
