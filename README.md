@@ -6,16 +6,16 @@ This is a song recorded by the open-source commons band [Lorenzo's Music](https:
 We decided to create an experimental recording method using **GitHub for music** to record remotely. We do this with the recording software **Ardour** and the **Ubuntu Studio OS**. This is another song from that experiment.
 
 # The GitHub for music Concept
-Since **Ardour** is all controlled by a main code file and distributes the information and audio tracks to folders from that main file we realized that it could be version controlled with GitHub. 
+Since **Ardour** is all controlled by a main code file and distributes the information and audio tracks to folders from that main file we realized that our recording sessions could be version controlled with GitHub. 
 
-The band could share our sessions and create branches for each new track or idea using the the full Ardour sessions -- with audio and all!
+The band is able to share our recording sessions and create branches for each new track or idea using the the full Ardour sessions -- with audio and all!
 
-Here is the [final recording from this experiment on YouTube](#youtubevideolink)
+Here is the [final recording from this song on YouTube](https://youtu.be/dyESCorHIkw)
 
-[![Lorenzo's Music - Friction world - audio](https://img.youtube.com/vi/{#videoID}/0.jpg)](#youtubevideolink)
+[![Lorenzo's Music - Friction world - audio](https://img.youtube.com/vi/dyESCorHIkw/0.jpg)](https://youtu.be/dyESCorHIkw)
 
 You can also **download the finished song Friction world from our website**
-[#websitemusicpage](#websitemusicpage?utm_source=github&utm_medium=frictionworldsonglink&utm_campaign=frictionworldreadme)
+[https://www.lorenzosmusic.com/2023/12/friction-world-by-lorenzos-music.html](https://www.lorenzosmusic.com/2023/12/friction-world-by-lorenzos-music.html?utm_source=github&utm_medium=frictionworldsonglink&utm_campaign=frictionworldreadme)
 
 We use Github for the working Ardour files of our songs to collaborate, make changes and record our parts outside of the studioand to backup the sessions.
 
@@ -25,7 +25,7 @@ We use the free and open source [Linux](https://www.linux.org/) based operating 
 
 The song is recorded with [Ardour](https://ardour.org/) an open-source digital audio workstation.
 
-Most of the effects used come from the open-source audio effects software projects [Calf Studio Gear](https://calf-studio-gear.org/) or [Guitarix virtual guitar amplifier plugins](https://guitarix.org/) and other effects included with the Ubuntu Studio operating system.
+Most of the effects used come from the open-source audio effects software projects [Calf Studio Gear](https://calf-studio-gear.org/), [LSP (Linux Studio Plugins)](https://lsp-plug.in/) or [Guitarix virtual guitar amplifier plugins](https://guitarix.org/) and other effects included with the Ubuntu Studio operating system.
 
 # Using this session
 You will need to **clone** this repository locally to use it. **Downloading the zip file will NOT work.**
@@ -48,6 +48,7 @@ If you would like to try and install them - here are some of the main ones used.
 These should be installed to recreate the actual version of the song we made, but the recording is still able to work without them, it will just sound different without these effects.
 * **Calf** Plugins Effects. [https://calf-studio-gear.org](https://calf-studio-gear.org/). These are the EQ and compression effects. These are only available for Linux operating systems but some of them come pre-installed in Ardour. If you can't install them the songs will still play the original files without these efects.
 * **Guitarix** The guitar pedal effects used on the tracks. Sadly these are only available for Linux. You can still play the files without them if you are on another operating system you will just hear the un altered sounds. - [https://guitarix.org](https://guitarix.org/)
+* **LSP** Plugin Effects [https://lsp-plug.in/](https://lsp-plug.in/) We also use EQ and compression effects from the LSP Project.
 
 # If you already use Ubuntu Studio
 The only thing you you need to install is  **Git LFS** [https://git-lfs.github.com](https://git-lfs.github.com/) to download the large .wav files from the GitHub repository.
@@ -58,4 +59,4 @@ If you create anything from this song, remix it or build anything from it let us
 You can message us on Twitter [@lorenzosmusic](https://twitter.com/lorenzosmusic) or email us from the contact section on our website [here at lorenzosmusic.com](https://www.lorenzosmusic.com/p/contact.html?utm_source=github&utm_medium=contactlink&utm_campaign=frictionworldreadme)
 
 ---
-<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a href="#websitemusicpage" property="dct:title" rel="cc:attributionURL">Friction world</a> by <a href="https://www.lorenzosmusic.com" property="cc:attributionName" rel="cc:attributionURL dct:creator">Lorenzo's Music</a> is licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" rel="license noopener noreferrer" style="display: inline-block;" target="_blank">CC BY-SA 4.0 <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" style="height: 22px; margin-left: 3px; vertical-align: text-bottom;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" style="height: 22px; margin-left: 3px; vertical-align: text-bottom;"><img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" style="height: 22px; margin-left: 3px; vertical-align: text-bottom;"></a></p>
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a href="https://www.lorenzosmusic.com/2023/12/friction-world-by-lorenzos-music.html" property="dct:title" rel="cc:attributionURL">Friction world</a> by <a href="https://www.lorenzosmusic.com" property="cc:attributionName" rel="cc:attributionURL dct:creator">Lorenzo's Music</a> is licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" rel="license noopener noreferrer" style="display: inline-block;" target="_blank">CC BY-SA 4.0 <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" style="height: 22px; margin-left: 3px; vertical-align: text-bottom;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" style="height: 22px; margin-left: 3px; vertical-align: text-bottom;"><img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" style="height: 22px; margin-left: 3px; vertical-align: text-bottom;"></a></p>
